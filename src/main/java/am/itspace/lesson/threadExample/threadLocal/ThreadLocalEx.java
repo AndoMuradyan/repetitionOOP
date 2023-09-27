@@ -1,7 +1,7 @@
 package am.itspace.lesson.threadExample.threadLocal;
 
-public class ThreadLocal {
-    static java.lang.ThreadLocal<String> threadLocal = new java.lang.ThreadLocal<>();
+public class ThreadLocalEx {
+    static ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
     public static void main(String[] args) throws InterruptedException {
         threadLocal.set("Hello wold!");

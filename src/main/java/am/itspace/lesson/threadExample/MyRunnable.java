@@ -2,6 +2,7 @@ package am.itspace.lesson.threadExample;
 
 
 public class MyRunnable implements Runnable {
+
     private String name;
     private Long sleep;
 

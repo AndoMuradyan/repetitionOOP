@@ -13,6 +13,7 @@ record UserRecordIm(String name, Date date) {
     public UserRecordIm setName(String name){
         return new UserRecordIm(name,this.date());
     }
+
     @Override
     public Date date() {
         return (Date) date.clone();
